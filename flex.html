@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  .container {
+    display: flex;
+  }
+  .layout{
+    border: 2px solid black;
+    background-color: lightblue;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+  .grow1 { flex-grow: 1; }
+  .grow2 { flex-grow: 0; }
+  @media (max-width:468px){
+    .nav{
+        display:flex;
+        flex-direction:column;
+        color:beige;
+    }
+  }
+</style>
+</head>
+<body>
+    <div class="container">
+  <div class="grow1 layout">Grow 1</div>
+  <div class="grow2 layout">Grow 2</div>
+</div>
+</body>
+</html>

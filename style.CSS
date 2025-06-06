@@ -1,0 +1,30 @@
+<style>
+        .select{
+            color:purple;
+        }
+        #order{
+            font-size:50px;
+        }
+        .parent p{
+            font-family: cursive;
+            font-size:50px;
+            letter-spacing: 5px;
+            line-height: 50px;
+            text-transform: lowercase;
+            text-decoration: aqua;
+            text-overflow: ellipsis;
+            text-shadow: cadetblue;
+        }
+        h1:hover{
+            color:purple;
+            background-color:blueviolet;
+        }
+        .Relative{
+            position:relative;
+            top:40px;
+            left:-530px;
+        }
+        .page{
+            height: 100vh;
+        }
+    </style>
